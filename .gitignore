@@ -1,0 +1,66 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# uv / pip / poetry / pipenv
+.uv/
+.pdm-python
+.pdm-build/
+pdm.lock
+poetry.lock
+Pipfile.lock
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Unit test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# dotenv
+*.env
+*.env.*
+!.env.example
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
